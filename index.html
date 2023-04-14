@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo list
+    </title>
+    <link rel="stylesheet"  href="style.css">
+</head>
+<body>
+  
+<!-- my first class is going to container to store all  -->
+<div class="container">
+    <div class="todo-app">
+<h2>Todo list <img src="images/logo.png" alt="logo"></h2>
+<div class="row">
+    <input type="text" id="input-box" placeholder="Add your text here">
+    <!-- add onclick function to provide script function -->
+    <button onClick="addTask()"><span id="button-span">Add</span></button>
+</div> 
+<div id="scroll" >
+    <ul id="list-container">
+        <!-- <li class="checked">Task1</li>
+        <li>Task1</li>
+        <li>Task1</li> -->
+    </ul></div>
+
+</div>
+    
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
