@@ -1,7 +1,14 @@
 # todo_Raj
 this is todo app which is useful for stroing day today tasks and show tasks even after refreshing it ,responsiveness will be added soon 
 
-to see demo 
+Technology used
+HTML
+CSS
+JS
+
+to see demo visit this website
 https://rajd3107.github.io/todo_Raj/
 
-visit this website
+functionality
+relaoding page the content remain as it it is
+
